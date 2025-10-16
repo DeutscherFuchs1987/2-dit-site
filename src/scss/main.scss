@@ -8,3 +8,22 @@
 @import "./components/header";
 @import "./components/footer";
 @import "./components/ui";
+@import "./components/button";
+@import "./components/burger";
+@import 'components/hero';
+@import 'components/stats-cards';
+@import 'components/post-department';
+@import 'components/post-department-card';
+
+
+body{
+    background-color: #d0d0d0;
+    padding-top: 89px;
+}
+
+.site-container{
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--container-offset);
+    background-color: #fff;
+}

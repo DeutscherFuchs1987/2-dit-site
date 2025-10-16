@@ -1,0 +1,32 @@
+.post-department {
+    padding: 54px 0;
+    font-family: "Cera Pro";
+    background-color: #F4F7FD;
+    height: 680px;
+    margin-left: -55px;
+    margin-right: -55px;
+
+
+    &__title {
+        font-size: 32px;
+        margin-bottom: 40px;
+        text-align: start;
+        color: #2B2929;
+        padding-left: 110px;
+
+    }
+
+    &__footer {
+        text-align: center;
+        margin-top: 27px;
+        margin-bottom: 54px;
+    }
+
+    &__show-all {
+        color: var(--pink);
+        border-bottom: solid 1px var(--pink);
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+}

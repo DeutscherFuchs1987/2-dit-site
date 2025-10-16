@@ -1,0 +1,33 @@
+.burger {
+  @include burger;
+  
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--pink);
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  
+  &::before {
+    top: 16px !important; 
+    transform: none !important;
+  }
+  
+  &::after {
+    top: auto !important; 
+    bottom: 16px !important; 
+  }
+
+  &::before,
+  &::after,
+  .burger__line {
+    left: 12px !important;
+    width: 20px !important;
+    height: 2px !important;
+    margin: 0 !important;
+  }
+}
