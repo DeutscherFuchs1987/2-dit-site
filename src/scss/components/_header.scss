@@ -13,7 +13,7 @@
     &__container {
         max-width: var(--container-width, 81.25rem); 
         height: 100%;
-        padding: 1.375rem 3.375rem;
+        padding: 1.375rem 54.17px;
         margin: 0 auto;
         display: flex;
         flex-direction: row;
@@ -27,7 +27,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 2rem;
+        gap: 6.32px;
         font-weight: 500;
         font-style: Medium;
         font-size: 12px;
@@ -36,25 +36,31 @@
     &__logo {
         display: flex;
         flex-direction: row;
-        gap: 2.1875rem;
+        gap: 35px;
         align-items: center;
     }
 
     &__social{
         display: flex;
         align-items: center;
-        gap: 0.9375rem;
+        gap: 6.32px;
+    }
+
+    &__social img{
+        padding: 9.89px 8.75px;
     }
 
     &__number{
         color: #000;
         border: none;
-        text-decoration: none; 
+        text-decoration: none;
+        padding: 9.03px 13.54px; 
     }
 
     &__burger{
         display: flex;
         align-items: center;
-        gap: 23px;
+        gap: 23.84px;
+        padding-left: 36.47px;
     }
 }
