@@ -44,6 +44,8 @@
         display: flex;
         align-items: center;
         gap: 6.32px;
+        // width: 9.89px;
+        // height: 8.75px;
     }
 
     &__social img{
@@ -61,6 +63,11 @@
         display: flex;
         align-items: center;
         gap: 23.84px;
-        padding-left: 36.47px;
+        padding-left: 36.11px;
+    }
+
+    &__burger img{
+        padding: 9.93px 6.68px;
     }
 }
+
